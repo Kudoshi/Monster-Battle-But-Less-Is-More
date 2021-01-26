@@ -63,8 +63,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BattleManager.cs" />
+    <Compile Include="Assets\BattleMonsterInfo.cs" />
+    <Compile Include="Assets\ButtonHandler.cs" />
+    <Compile Include="Assets\DamageLogicHandler.cs" />
+    <Compile Include="Assets\DisplayHandler.cs" />
+    <Compile Include="Assets\LevelDB.cs" />
+    <Compile Include="Assets\LevelDBStructure.cs" />
     <Compile Include="Assets\LevelManager.cs" />
     <Compile Include="Assets\MenuScript.cs" />
+    <Compile Include="Assets\Monster.cs" />
+    <Compile Include="Assets\MonsterDB.cs" />
+    <Compile Include="Assets\MonsterDBStructure.cs" />
+    <Compile Include="Assets\MonsterInfo.cs" />
+    <Compile Include="Assets\MonsterManager.cs" />
+    <Compile Include="Assets\PhaseController.cs" />
+    <Compile Include="Assets\ScoreHandler.cs" />
+    <Compile Include="Assets\SkillVariableStructure.cs" />
+    <Compile Include="Assets\SkillsDB.cs" />
+    <Compile Include="Assets\SkillsDBStructure.cs" />
+    <Compile Include="Assets\StatsButtonLogic.cs" />
+    <Compile Include="Assets\StatsDisplayLogic.cs" />
+    <Compile Include="Assets\TurnCounterHandler.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

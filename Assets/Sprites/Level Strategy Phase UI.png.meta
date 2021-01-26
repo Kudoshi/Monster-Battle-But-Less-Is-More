@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 6dfe0b13d0ecbdd489117482a08df549
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1516623973202332555
+    second: Level Strategy Phase UI_0
+  - first:
+      213: 8970984317822223042
+    second: Level Strategy Phase UI_1
+  - first:
+      213: -3538867415145810993
+    second: Level Strategy Phase UI_2
+  - first:
+      213: 277181275248538253
+    second: Level Strategy Phase UI_3
+  - first:
+      213: -7753002005255930164
+    second: Level Strategy Phase UI_4
+  - first:
+      213: -6981407121035609231
+    second: Level Strategy Phase UI_5
+  - first:
+      213: 2135693022946888167
+    second: Level Strategy Phase UI_6
+  - first:
+      213: -8044142048757210234
+    second: Level Strategy Phase UI_7
+  - first:
+      213: 5575935963313940457
+    second: Level Strategy Phase UI_8
+  - first:
+      213: -8020765579280330944
+    second: Level Strategy Phase UI_9
+  - first:
+      213: -8481855317534728270
+    second: Level Strategy Phase UI_10
+  - first:
+      213: -3368290715024432060
+    second: Level Strategy Phase UI_11
+  - first:
+      213: -7945487901626481535
+    second: Level Strategy Phase UI_12
+  - first:
+      213: 5822354586293003359
+    second: Level Strategy Phase UI_13
+  - first:
+      213: 7764064200595124280
+    second: Level Strategy Phase UI_14
+  - first:
+      213: -8561057691380316148
+    second: Level Strategy Phase UI_15
+  - first:
+      213: 2589780920365125003
+    second: Level Strategy Phase UI_16
+  - first:
+      213: -8253982843559721723
+    second: Level Strategy Phase UI_17
+  - first:
+      213: 1297138591749512681
+    second: Level Strategy Phase UI_18
+  - first:
+      213: 5982796574868709460
+    second: Level Strategy Phase UI_19
+  - first:
+      213: 7850474462579534545
+    second: Level Strategy Phase UI_20
+  - first:
+      213: -940715255352495351
+    second: Level Strategy Phase UI_21
+  - first:
+      213: -2643677458050679178
+    second: Level Strategy Phase UI_22
+  - first:
+      213: 8914827872307100658
+    second: Level Strategy Phase UI_23
+  - first:
+      213: -5366559767306858822
+    second: Level Strategy Phase UI_24
+  - first:
+      213: -4109086100528988167
+    second: Level Strategy Phase UI_25
+  - first:
+      213: -47511232738661206
+    second: Level Strategy Phase UI_26
+  - first:
+      213: 7652589894716271122
+    second: Level Strategy Phase UI_27
+  - first:
+      213: 1446654791000843154
+    second: Level Strategy Phase UI_28
+  - first:
+      213: 7462188296224630274
+    second: Level Strategy Phase UI_29
+  - first:
+      213: 4306391714114357335
+    second: Level Strategy Phase UI_30
+  - first:
+      213: -377958480059892680
+    second: Level Strategy Phase UI_31
+  - first:
+      213: 9167681265306328781
+    second: Level Strategy Phase UI_32
+  - first:
+      213: -8233189147036389068
+    second: Level Strategy Phase UI_33
+  - first:
+      213: 403705065649683367
+    second: Level Strategy Phase UI_34
+  - first:
+      213: 7066622953638491190
+    second: Level Strategy Phase UI_35
+  - first:
+      213: -1463719976438613901
+    second: Level Strategy Phase UI_36
+  - first:
+      213: 456314952096184027
+    second: Level Strategy Phase UI_37
+  - first:
+      213: -8511807204645087261
+    second: Level Strategy Phase UI_38
+  - first:
+      213: 2808017762785629234
+    second: Level Strategy Phase UI_39
+  - first:
+      213: 1477636979118532819
+    second: Level Strategy Phase UI_40
+  - first:
+      213: -8662604617087799262
+    second: Level Strategy Phase UI_41
+  - first:
+      213: -7534568063278732421
+    second: Level Strategy Phase UI_42
+  - first:
+      213: 8482709855137968917
+    second: Level Strategy Phase UI_43
+  - first:
+      213: -1491594397204293537
+    second: Level Strategy Phase UI_44
+  - first:
+      213: 7547183240079332348
+    second: Level Strategy Phase UI_45
+  - first:
+      213: 144391284441477220
+    second: Level Strategy Phase UI_46
+  - first:
+      213: 1388005580400590919
+    second: Level Strategy Phase UI_47
+  - first:
+      213: 321168245509318414
+    second: Level Strategy Phase UI_48
+  - first:
+      213: -2426733190952311701
+    second: Level Strategy Phase UI_49
+  - first:
+      213: 3567716625270790499
+    second: Level Strategy Phase UI_50
+  - first:
+      213: 7100573796281251598
+    second: Level Strategy Phase UI_51
+  - first:
+      213: -4810663253026070132
+    second: Level Strategy Phase UI_52
+  - first:
+      213: 6940723788366161062
+    second: Level Strategy Phase UI_53
+  - first:
+      213: -860313839199736038
+    second: Level Strategy Phase UI_54
+  - first:
+      213: 4111043510548869709
+    second: Level Strategy Phase UI_55
+  - first:
+      213: -5796542511705273
+    second: Level Strategy Phase UI_56
+  - first:
+      213: 1706034228693890911
+    second: Level Strategy Phase UI_57
+  - first:
+      213: 5385937838232484729
+    second: Level Strategy Phase UI_58
+  - first:
+      213: -7946024466951738590
+    second: Level Strategy Phase UI_59
+  - first:
+      213: -3470288380098306669
+    second: Level Strategy Phase UI_60
+  - first:
+      213: -1664760812714739784
+    second: Level Strategy Phase UI_61
+  - first:
+      213: -7373829484367754205
+    second: Level Strategy Phase UI_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.74734396, y: 0.47343963}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level Strategy Phase UI_1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 45
+        width: 852
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2c46de4b65f7c70800000000000000
+      internalID: 8970984317822223042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

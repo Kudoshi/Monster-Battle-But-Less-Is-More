@@ -61,7 +61,6 @@ public class LevelManager : MonoBehaviour
     public void setLevel1()
     {
         currentLevel = 1;
-        printCurrentLevel();
         changeCurrentLevel();
     }
     public void setLevel2()
