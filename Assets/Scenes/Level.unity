@@ -15628,13 +15628,13 @@ MonoBehaviour:
   - skillName: Tackle
     skillDescription: Tackle opponents
     dmgType: Physical Attack
-    DMG: 4
+    DMG: 7
     MPCost: 0
   - skillName: Rolling Thunder
     skillDescription: Shrouds itself in thunder and rolls over to enemies to knock
       them down
     dmgType: Magical Attack
-    DMG: 6
+    DMG: 12
     MPCost: 3
   - skillName: Slime Spit
     skillDescription: Spiting bits of slime at high speed to enemies

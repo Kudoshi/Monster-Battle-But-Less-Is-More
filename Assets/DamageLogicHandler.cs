@@ -60,6 +60,10 @@ public class DamageLogicHandler : MonoBehaviour
             int finaldmgafteroundup = (int)(finaldmg + 0.5f);  //Plus 0.5f for rounding purposes
             victimInfo.HP -= finaldmgafteroundup;
 
+            if (victimInfo.HP <= 0)
+            {
+                victimInfo.HP = 0;
+            }
             return finaldmgafteroundup;
         }
         else if (skillUsed.dmgType == "Magical Attack")
@@ -83,7 +87,10 @@ public class DamageLogicHandler : MonoBehaviour
             //Minus HP of victim
             int finaldmgafteroundup = (int)(finaldmg + 0.5f);  //Plus 0.5f for rounding purposes
             victimInfo.HP -= finaldmgafteroundup;
-
+            if (victimInfo.HP <= 0)
+            {
+                victimInfo.HP = 0;
+            }
             return finaldmgafteroundup;
         }
         else

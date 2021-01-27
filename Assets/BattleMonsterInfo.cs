@@ -31,6 +31,10 @@ public class BattleMonsterInfo : MonoBehaviour
         MDEF = MonsterInfo.MDEF;
         monsterSkill = (SkillsDBStructure[])MonsterInfo.monsterSkill.Clone();
     }
+    public void CheckVictoryDefeatCondition()
+    {
+
+    }
     public void PrintMonsterStats()
     {
         Debug.Log("---------MONSTER STATS----------");

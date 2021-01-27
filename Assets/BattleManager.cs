@@ -17,12 +17,16 @@ public class BattleManager : MonoBehaviour
     private DamageLogicHandler DMGHandler;
     private DisplayHandler displayHandler;
     private TurnCounterHandler turnCountHandler;
+    private BattleMonsterInfo YMonInfo;
+    private BattleMonsterInfo EMonInfo;
     void Start()
     {
         CopyOldMonsterInfo();
        turnCountHandler = gameObject.GetComponent<TurnCounterHandler>();
         displayHandler = DisplayHandlerObj.GetComponent<DisplayHandler>();
         DMGHandler = gameObject.GetComponent<DamageLogicHandler>();
+        YMonInfo = YourMonster.GetComponent<BattleMonsterInfo>();
+        EMonInfo = EnemyMonster.GetComponent<BattleMonsterInfo>();
     }
 
     private void CopyOldMonsterInfo()
@@ -45,6 +49,7 @@ public class BattleManager : MonoBehaviour
     public void EndTurn()
     {
         turnCountHandler.EndTurn();
+        CheckDefeatCondition();
     }
     public void SkillUsed(int WhatSkill, int casterIsEnemy)
     {
@@ -61,6 +66,22 @@ public class BattleManager : MonoBehaviour
             displayHandler.DisplayDamageCounter(victim, damagedealt);
         }
         EndTurn();
+    }
+    int winner; //1 - YMon 2 - EMon
+    private void CheckDefeatCondition()
+    {
+        if (YMonInfo.HP <= 0)
+        {
+            winner = 2;
+            Debug.Log("Winner is : " + winner);
+        }
+        if (EMonInfo.HP <= 0)
+        {
+            winner = 1;
+            Debug.Log("Winner is : " + winner);
+        }
+
+        
     }
 }
     
