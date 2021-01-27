@@ -6,6 +6,8 @@ public class SkillsDBStructure
 {
     public string skillName;
     public string skillDescription;
-    public SkillVariableStructure[] skillVariable;
+    public string dmgType;
+    public int DMG;
+    public int MPCost;
 
 }

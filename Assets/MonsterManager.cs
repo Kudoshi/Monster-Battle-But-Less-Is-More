@@ -22,7 +22,8 @@ public class MonsterManager : MonoBehaviour
     public GameObject EnemyMonster;
     private MonsterInfo yourMonsterInfo;
     private MonsterInfo enemyMonsterInfo;
-
+    private PrefightSkillDisplay YprefightSkillDisplay;
+    private PrefightSkillDisplay EprefightSkillDisplay;
    
     void Start()
     {
@@ -35,11 +36,18 @@ public class MonsterManager : MonoBehaviour
 
         yourMonsterInfo = YourMonster.GetComponent<MonsterInfo>();
         enemyMonsterInfo = EnemyMonster.GetComponent<MonsterInfo>();
-
+        YprefightSkillDisplay = YourMonster.GetComponent<PrefightSkillDisplay>();
+        EprefightSkillDisplay = EnemyMonster.GetComponent<PrefightSkillDisplay>();
 
         AssignLevelInfo();
         AssignYourMonster();
         AssignEnemyMonster();
+        Invoke("SetSkillDisplay", 0.5f);
+    }
+    public void SetSkillDisplay()
+    {
+        YprefightSkillDisplay.DisplaySkill();
+        EprefightSkillDisplay.DisplaySkill();
     }
     public void AssignLevelInfo()
     {
@@ -74,19 +82,27 @@ public class MonsterManager : MonoBehaviour
         yourMonsterInfo.MATK = monster.MATK;
         yourMonsterInfo.MDEF = monster.MDEF;
         yourMonsterInfo.monsterIcon = monster.monsterIcon;
-
-        AssignSkillOnMonster(yourMonsterInfo, monster.monsterSkill); //Passes on the array of skills
+        yourMonsterInfo.monsterSkill = (SkillsDBStructure[])monster.monsterSkill.Clone();
+        
+        
+        
+        AssignSkillOnMonster(yourMonsterInfo); //Passes on the array of skills
         yourMonsterInfo.CalculateStatsAfterLevel();
+        
+
     }
 
-    public void AssignSkillOnMonster(MonsterInfo skillOwner, SkillsDBStructure[] listOfSkill)
+    public void AssignSkillOnMonster(MonsterInfo theMonsterInfo)
     {
-        foreach(SkillsDBStructure skill in listOfSkill)
+        
+        foreach(SkillsDBStructure skill in theMonsterInfo.monsterSkill)
         {
-            //Find in the skill list, whereby skill name currently iterated is = skill name in DB
             SkillsDBStructure skillInfoDB = Array.Find(skilldb.SkillList, element => element.skillName == skill.skillName);
             skill.skillDescription = skillInfoDB.skillDescription;
-            skill.skillVariable = skillInfoDB.skillVariable;
+            skill.dmgType = skillInfoDB.dmgType;
+            skill.DMG = skillInfoDB.DMG;
+            skill.MPCost = skillInfoDB.MPCost;
+            
         }
     }
     public void AssignEnemyMonster()
@@ -108,8 +124,9 @@ public class MonsterManager : MonoBehaviour
         enemyMonsterInfo.MATK = monster.MATK;
         enemyMonsterInfo.MDEF = monster.MDEF;
         enemyMonsterInfo.monsterIcon = monster.monsterIcon;
+        enemyMonsterInfo.monsterSkill = (SkillsDBStructure[])monster.monsterSkill.Clone();
 
-        AssignSkillOnMonster(enemyMonsterInfo, monster.monsterSkill); //Passes on the array of skills
+        AssignSkillOnMonster(enemyMonsterInfo); //Passes on the array of skills
         enemyMonsterInfo.CalculateStatsAfterLevel();
     }
 }

@@ -9,7 +9,7 @@ public class BattleMonsterInfo : MonoBehaviour
     [System.NonSerialized]
     public string monsterName;
     [System.NonSerialized]
-    public string[] monsterSkill;
+    public SkillsDBStructure[] monsterSkill;
     [System.NonSerialized]
     public Sprite monsterIcon;
     [System.NonSerialized]
@@ -29,7 +29,7 @@ public class BattleMonsterInfo : MonoBehaviour
         DEF = MonsterInfo.DEF;
         MATK = MonsterInfo.MATK;
         MDEF = MonsterInfo.MDEF;
-
+        monsterSkill = (SkillsDBStructure[])MonsterInfo.monsterSkill.Clone();
     }
     public void PrintMonsterStats()
     {
@@ -42,5 +42,18 @@ public class BattleMonsterInfo : MonoBehaviour
         Debug.Log(monsterSkill);
         Debug.Log(monsterIcon);
         Debug.Log("-------------------------------");
+    }
+    public void PrintSkill()
+    {
+        Debug.Log("-------------" + monsterName + "--------------");
+        foreach (SkillsDBStructure skill in monsterSkill)
+        {
+
+            Debug.Log(skill.skillName + "   -   " + skill.skillDescription);
+            Debug.Log("[" + skill.dmgType + "]");
+            Debug.Log("DMG: " + skill.DMG + "   MP Cost:" + skill.MPCost);
+            Debug.Log("_____________________");
+        }
+
     }
 }

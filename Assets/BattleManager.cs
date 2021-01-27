@@ -10,9 +10,19 @@ public class BattleManager : MonoBehaviour
     [Header("Strategy MonsterInfo")]
     public GameObject oldYourMonster;
     public GameObject oldEnemyMonster;
+    [Header("Managers")]
+    public GameObject DisplayHandlerObj;
+
+
+    private DamageLogicHandler DMGHandler;
+    private DisplayHandler displayHandler;
+    private TurnCounterHandler turnCountHandler;
     void Start()
     {
         CopyOldMonsterInfo();
+       turnCountHandler = gameObject.GetComponent<TurnCounterHandler>();
+        displayHandler = DisplayHandlerObj.GetComponent<DisplayHandler>();
+        DMGHandler = gameObject.GetComponent<DamageLogicHandler>();
     }
 
     private void CopyOldMonsterInfo()
@@ -26,4 +36,31 @@ public class BattleManager : MonoBehaviour
         MonsterInfo oldEnemyMonsterInfo = oldEnemyMonster.GetComponent<MonsterInfo>();
         EnemyMonster.GetComponent<BattleMonsterInfo>().CopyMonsterInfo(oldEnemyMonsterInfo);
     }
+
+    public void ChangeTurnDisplay(int turn, int isYourTurn)
+    {
+        displayHandler.DisplayWhoseTurn(isYourTurn);
+        displayHandler.DisplayTurnCounter(turn);
+    }
+    public void EndTurn()
+    {
+        turnCountHandler.EndTurn();
+    }
+    public void SkillUsed(int WhatSkill, int casterIsEnemy)
+    {
+        int damagedealt = DMGHandler.StartDamageCalculation(WhatSkill, casterIsEnemy);
+        int victim;
+        if (casterIsEnemy == 0)
+        {
+            victim = 2;
+            displayHandler.DisplayDamageCounter(victim, damagedealt);
+        }
+        else if (casterIsEnemy == 1)
+        {
+            victim = 1;
+            displayHandler.DisplayDamageCounter(victim, damagedealt);
+        }
+        EndTurn();
+    }
 }
+    

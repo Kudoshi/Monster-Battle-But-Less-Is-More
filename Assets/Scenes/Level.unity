@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -1340,15 +1340,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2736,6 +2736,10 @@ MonoBehaviour:
   SkillDescription3: {fileID: 1701936442}
   SkillName4: {fileID: 1798762707}
   SkillDescription4: {fileID: 589517900}
+  Button1: {fileID: 661911445}
+  Button2: {fileID: 1473251840}
+  Button3: {fileID: 595273496}
+  Button4: {fileID: 1992751404}
 --- !u!1 &324472148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3507,13 +3511,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[PHYSICAL ATTACK]
-
-    USES DAMAGE HIGH UP BY HEADBUTTING ENEMIES
-
-
-    DMG:
-    25 MP: 15'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -3541,7 +3539,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4028,6 +4026,7 @@ GameObject:
   - component: {fileID: 421247964}
   - component: {fileID: 421247966}
   - component: {fileID: 421247965}
+  - component: {fileID: 421247967}
   m_Layer: 5
   m_Name: YourMonster
   m_TagString: Untagged
@@ -4146,6 +4145,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421247960}
   m_CullTransparentMesh: 0
+--- !u!114 &421247967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421247960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb14bdf24d09c6148acf95c937104551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkillObj1: {fileID: 1683273210}
+  SkillObj2: {fileID: 1166802401}
+  SkillObj3: {fileID: 876557483}
+  SkillObj4: {fileID: 157563298}
 --- !u!1 &424784516
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,7 +4217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXAMPLE
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -4230,7 +4245,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5214,13 +5229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[PHYSICAL ATTACK]
-
-    USES DAMAGE HIGH UP BY HEADBUTTING ENEMIES
-
-
-    DMG:
-    25 MP: 15'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -5248,7 +5257,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5331,7 +5340,7 @@ RectTransform:
   - {fileID: 424784517}
   - {fileID: 1701936443}
   m_Father: {fileID: 1275623866}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5380,7 +5389,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 595273499}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2083837324}
+        m_MethodName: Skill3Used
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &595273499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5854,7 +5874,7 @@ RectTransform:
   - {fileID: 1074999478}
   - {fileID: 1623883576}
   m_Father: {fileID: 1275623866}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5903,7 +5923,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 661911448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2083837324}
+        m_MethodName: Skill1Used
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &661911448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6723,6 +6754,139 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797827467}
   m_CullTransparentMesh: 0
+--- !u!1 &826806886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826806887}
+  - component: {fileID: 826806889}
+  - component: {fileID: 826806888}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &826806887
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826806886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1705901185}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &826806888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826806886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: NEXT TURN
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &826806889
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826806886}
+  m_CullTransparentMesh: 0
 --- !u!1 &832867319
 GameObject:
   m_ObjectHideFlags: 0
@@ -7242,7 +7406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -7270,15 +7434,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -7306,7 +7470,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8429,7 +8593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXAMPLE
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -8457,7 +8621,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8949,7 +9113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -8977,15 +9141,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -9013,7 +9177,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9083,7 +9247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -9111,15 +9275,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -9147,7 +9311,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9577,8 +9741,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9816,7 +9980,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXAMPLE
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -9844,7 +10008,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10026,6 +10190,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1705901185}
   - {fileID: 661911446}
   - {fileID: 1473251841}
   - {fileID: 595273497}
@@ -10436,7 +10601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -10464,15 +10629,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -10500,7 +10665,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10973,7 +11138,7 @@ RectTransform:
   - {fileID: 1235559088}
   - {fileID: 384679356}
   m_Father: {fileID: 1275623866}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11022,7 +11187,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1473251843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2083837324}
+        m_MethodName: Skill2Used
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1473251843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12179,7 +12355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -12207,15 +12383,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -12243,7 +12419,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12580,13 +12756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[PHYSICAL ATTACK]
-
-    USES DAMAGE HIGH UP BY HEADBUTTING ENEMIES
-
-
-    DMG:
-    25 MP: 15'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -12614,7 +12784,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12747,8 +12917,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12938,6 +13108,7 @@ GameObject:
   - component: {fileID: 1658177757}
   - component: {fileID: 1658177758}
   - component: {fileID: 1658177759}
+  - component: {fileID: 1658177760}
   m_Layer: 5
   m_Name: EnemyMonster
   m_TagString: Untagged
@@ -13004,6 +13175,22 @@ MonoBehaviour:
   DEF: {fileID: 1342794344}
   MATK: {fileID: 1620169121}
   MDEF: {fileID: 361539696}
+--- !u!114 &1658177760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658177756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb14bdf24d09c6148acf95c937104551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkillObj1: {fileID: 1169604789}
+  SkillObj2: {fileID: 1582074287}
+  SkillObj3: {fileID: 1338088760}
+  SkillObj4: {fileID: 2061227014}
 --- !u!1 &1683273210
 GameObject:
   m_ObjectHideFlags: 0
@@ -13060,7 +13247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -13088,15 +13275,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -13124,7 +13311,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -13340,13 +13527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[PHYSICAL ATTACK]
-
-    USES DAMAGE HIGH UP BY HEADBUTTING ENEMIES
-
-
-    DMG:
-    25 MP: 15'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -13374,7 +13555,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13612,6 +13793,136 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 1
+--- !u!1 &1705901184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1705901185}
+  - component: {fileID: 1705901188}
+  - component: {fileID: 1705901187}
+  - component: {fileID: 1705901186}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1705901185
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705901184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 826806887}
+  m_Father: {fileID: 1275623866}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5.8319, y: 227.13}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1705901186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705901184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    m_PressedColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1705901187}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2083837321}
+        m_MethodName: EndTurn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1705901187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705901184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1705901188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705901184}
+  m_CullTransparentMesh: 0
 --- !u!1 &1711584257
 GameObject:
   m_ObjectHideFlags: 0
@@ -14153,7 +14464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXAMPLE
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -14181,7 +14492,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14939,7 +15250,7 @@ RectTransform:
   - {fileID: 1798762708}
   - {fileID: 589517901}
   m_Father: {fileID: 1275623866}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14988,7 +15299,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1992751407}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2083837324}
+        m_MethodName: Skill4Used
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1992751407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15205,9 +15527,16 @@ MonoBehaviour:
   MonsterList:
   - monsterName: Smoogie
     monsterSkill:
-    - skillName: 
+    - skillName: Tackle
       skillDescription: 
-      skillVariable: []
+      dmgType: 
+      DMG: 0
+      MPCost: 0
+    - skillName: Rolling Thunder
+      skillDescription: 
+      dmgType: 
+      DMG: 0
+      MPCost: 0
     monsterIcon: {fileID: 1453210893535345519, guid: 9f8b6ebc109485544bb3156f971973cc,
       type: 3}
     HP: 45
@@ -15217,7 +15546,12 @@ MonoBehaviour:
     MATK: 14
     MDEF: 14
   - monsterName: Slimy
-    monsterSkill: []
+    monsterSkill:
+    - skillName: Slime Spit
+      skillDescription: 
+      dmgType: 
+      DMG: 0
+      MPCost: 0
     monsterIcon: {fileID: -4866309598625018053, guid: 9f8b6ebc109485544bb3156f971973cc,
       type: 3}
     HP: 35
@@ -15291,20 +15625,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillList:
-  - skillName: Headbutt
-    skillDescription: Headbutt opponents
-    skillVariable:
-    - variableName: Damage
-      baseValue: 5
+  - skillName: Tackle
+    skillDescription: Tackle opponents
+    dmgType: Physical Attack
+    DMG: 4
+    MPCost: 0
+  - skillName: Rolling Thunder
+    skillDescription: Shrouds itself in thunder and rolls over to enemies to knock
+      them down
+    dmgType: Magical Attack
+    DMG: 6
+    MPCost: 3
+  - skillName: Slime Spit
+    skillDescription: Spiting bits of slime at high speed to enemies
+    dmgType: Physical Attack
+    DMG: 5
+    MPCost: 0
   - skillName: 
     skillDescription: 
-    skillVariable: []
-  - skillName: 
-    skillDescription: 
-    skillVariable: []
-  - skillName: 
-    skillDescription: 
-    skillVariable: []
+    dmgType: 
+    DMG: 0
+    MPCost: 0
 --- !u!1 &2022694239
 GameObject:
   m_ObjectHideFlags: 0
@@ -15629,7 +15970,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SKILL 1 - ATTACK ENEMIES BASED ON THE CURRENT HEALTH OF YOUR HP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 42f5b9fb3c739314fb26ef6b7153e872, type: 2}
   m_sharedMaterial: {fileID: 1745522998320835453, guid: 42f5b9fb3c739314fb26ef6b7153e872,
@@ -15657,15 +15998,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.59
+  m_fontSizeBase: 3.59
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 3.5
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -15693,7 +16034,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.3582792, y: 0.26492715, z: 2.466512, w: 1.196607}
+  m_margin: {x: 2.0084825, y: 0.26492715, z: 0.9684869, w: 1.196607}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -15874,6 +16215,7 @@ MonoBehaviour:
   EnemyMonster: {fileID: 852492884}
   oldYourMonster: {fileID: 421247960}
   oldEnemyMonster: {fileID: 1658177756}
+  DisplayHandlerObj: {fileID: 297193743}
 --- !u!4 &2083837322
 Transform:
   m_ObjectHideFlags: 0
@@ -15925,6 +16267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559d60d780502ad4086fff7ca30a249e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  YourMonsterObj: {fileID: 1192809110}
+  EnemyMonsterObj: {fileID: 852492884}
 --- !u!114 &2083837326
 MonoBehaviour:
   m_ObjectHideFlags: 0
